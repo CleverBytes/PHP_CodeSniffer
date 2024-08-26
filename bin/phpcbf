@@ -17,3 +17,4 @@ if (is_file(__DIR__.'/../autoload.php') === true) {
 $runner   = new PHP_CodeSniffer\Runner();
 $exitCode = $runner->runPHPCBF();
 exit($exitCode);
+ * @copyright 2006-2015 Squiz Pty Ltd (ABN 77 084 670 600)
